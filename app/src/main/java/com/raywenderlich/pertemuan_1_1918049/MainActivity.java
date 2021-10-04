@@ -16,8 +16,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Biodata(View view){
-        Intent a = new Intent(MainActivity.this,
-                Biodata.class);
+        Intent a = new Intent(MainActivity.this,Biodata.class);
+        startActivity(a);
+    }
+
+    public void Segitiga(View v){
+        Intent a = new Intent(MainActivity.this,Segitiga.class);
         startActivity(a);
     }
 }
